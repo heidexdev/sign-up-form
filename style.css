@@ -107,7 +107,30 @@ h6 {
   font-size: 1.9rem;
   padding-left: 2rem;
   padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-color: #f0f0f0;
 }
 .text {
   width: 80%;
+}
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-header {
+  padding: 0 2rem;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 2rem;
+}
+.input label {
+  color: rgb(96, 92, 92);
+}
+input {
+  width: 280px;
+  border: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
 }
