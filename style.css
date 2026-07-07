@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "norse";
+  src: url(fonts/Norsebold.otf);
+}
+:root {
+  font-size: 16px;
+}
+.container {
+  display: flex;
+}
+.image-sidebar {
+  width: 30vw;
+}
+.sidebar-background {
+  width: 100%;
+}
+.sidebar-header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.sidebar-icon {
+  width: 3rem;
+}
+.sidebar-title {
+  font-family: "norse", sans-serif;
+  font-size: 3rem;
+  color: white;
+}
