@@ -92,12 +92,14 @@ h6 {
 .main {
   display: flex;
   flex-direction: column;
+  width: 60vw;
+  gap: 3rem;
 }
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 9rem;
-  margin-left: 2rem;
+  gap: 1.5rem;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 4rem;
 }
