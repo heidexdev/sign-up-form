@@ -2,6 +2,10 @@
   font-family: "norse";
   src: url(fonts/Norsebold.otf);
 }
+@font-face {
+  font-family: "roboto";
+  src: url(fonts/Roboto-Regular.ttf);
+}
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -84,7 +88,7 @@ h6 {
   width: 4.5rem;
 }
 .sidebar-title {
-  font-family: "norse", sans-serif;
+  font-family: "norse";
   font-size: 5rem;
   color: white;
 }
@@ -94,12 +98,16 @@ h6 {
   flex-direction: column;
   width: 60vw;
   gap: 3rem;
+  font-family: "roboto";
 }
 .info {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  font-size: 2rem;
+  font-size: 1.9rem;
   padding-left: 2rem;
-  padding-top: 4rem;
+  padding-top: 5rem;
+}
+.text {
+  width: 80%;
 }
