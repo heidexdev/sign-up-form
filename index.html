@@ -34,27 +34,37 @@
             <div class="form-inputs">
               <div class="input">
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name" />
+                <input minlength="1" maxlength="100" type="text" name="first-name" id="first-name" required />
               </div>
               <div class="input">
                 <label for="last-name">last NAME</label>
-                <input type="text" name="last-name" id="last-name" />
+                <input minlength="1" maxlength="100" type="text" name="last-name" id="last-name" required />
               </div>
               <div class="input">
                 <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" />
+                <input minlength="1" maxlength="100" type="email" name="email" id="email" required />
               </div>
               <div class="input">
                 <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" name="phone-number" id="phone-number" />
+                <input
+                  type="tel"
+                  name="phone-number"
+                  id="phone-number"
+                  required
+                />
               </div>
               <div class="input">
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" />
+                <input minlength="8" maxlength="100" type="password" name="password" id="password" required />
               </div>
               <div class="input">
                 <label for="confirm-pass">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-pass" id="confirm-pass" />
+                <input
+                  type="password"
+                  name="confirm-pass"
+                  id="confirm-pass"
+                  required
+                />
               </div>
             </div>
           </form>
